@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-family: Brushstroke, fantasy;
+	color: #000000;
+	text-align: center;
+}
+body {
+	background-color: #f9f9f9;
+
+}
+
+#box1 {
+	
+	background-color: #a8e6cf;
+}
+#box2 {
+	
+	background-color: #dcedc1;
+}
+#box3 {
+	
+	background-color: #ffd3b6;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: #00b159;
+	width: 100%;
+	height: 200px;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#header-nav {
+  background-color: #5bc0de;
+  border-radius: 0;
+  border: 0;
+}
+#header-nav .navbar-brand a{
+  color: #f9f9f9;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+#nav-list{
+  background: white;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
+}
+
+#header-nav span.icon-bar{
+  background: #e7e7e7;
+}
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #888;
+}
+
+.menu-header{
+  margin-bottom: 40px;
+}
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
+}
